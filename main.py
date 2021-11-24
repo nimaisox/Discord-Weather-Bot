@@ -6,7 +6,7 @@ from weather
 token = 'DISCORD_BOT_TOKEN'
 api_key = 'OPEN_WEATHER_MAP_API_KEY'
 client = discord.Client()
-command_prefix = 'w.'
+command_prefix = 'w'
 
 @client.event
 async def on_ready():
